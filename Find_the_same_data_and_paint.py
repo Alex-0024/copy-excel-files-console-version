@@ -1,4 +1,4 @@
-# Find_the_same_data_and_paint
+# Find_the_same_data_and_paint.py
 
 import openpyxl
 from openpyxl.styles import PatternFill

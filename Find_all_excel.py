@@ -1,6 +1,7 @@
+# Find_all_excel.py
+
 import os
 import sys
-
 
 def find_all_excel():
     # Получаем список всех файлов в текущей директории
