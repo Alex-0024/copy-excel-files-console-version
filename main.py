@@ -7,10 +7,11 @@ from Copy_row_column_sizes import copy_row_column_sizes
 from Find_the_same_data_and_paint import find_data_and_paint
 
 print('Привет, начинаю работу')
-print('Высота строк в итоговом файле будет определена по первой строке первого файла в списке')
 
 # Нахождение списка файлов Excel в рабочей папке
 file_paths = find_all_excel()
+
+print('Высота строк в итоговом файле будет определена по первой строке первого файла в списке')
 
 enter = input('Вы уверены, что хотите объединить эти файлы Yes/No:')
 while enter != 'Yes':
