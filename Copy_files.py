@@ -3,9 +3,7 @@
 import openpyxl
 from Copy_cell_style import copy_cell_style
 
-res_path = 'result.xlsx'
-
-def copy_file(file_paths):
+def copy_file(file_paths, res_path):
     # Создание новой рабочей книги для результата
     wb_result = openpyxl.Workbook()
     ws_result = wb_result.active
