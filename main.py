@@ -4,6 +4,7 @@ import sys
 from Find_all_excel import find_all_excel
 from Copy_files import copy_file, res_path
 from Copy_row_column_sizes import copy_row_column_sizes
+from Find_the_same_data_and_paint import find_data_and_paint
 
 print('Привет, начинаю работу')
 print('Высота строк в итоговом файле будет определена по первой строке первого файла в списке')
@@ -27,5 +28,9 @@ copy_file(file_paths)
 # Установка ширины столбцов целевого файла на основании первого файла из списка
 copy_row_column_sizes(file_paths[0], res_path)
 
+# Определение строк с одинаковым значением в первой ячейке и их закраска
+find_data_and_paint(res_path)
+
 print(f'Работа завершена, файл с именем {res_path} создан успешно')
+print('Одинаковые повторяющиеся строки выделены желтым цветом, кроме первой строки')
 input()
