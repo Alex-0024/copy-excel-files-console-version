@@ -1,6 +1,7 @@
 # Working project directory
 *.xlsx
 *.exe
+photo/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
